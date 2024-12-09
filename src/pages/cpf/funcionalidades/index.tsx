@@ -37,7 +37,7 @@ export default function Home() {
       <ScrollView contentContainerStyle={styles.buttonContainer}>
         <TouchableOpacity
           style={styles.functionButton}
-          onPress={() => handleNavigation("ComprarInsumo")}
+          onPress={() => handleNavigation("ComprarInsumos")}
         >
           <Image
             source={require("../../../assets/icons/insumo.png")}

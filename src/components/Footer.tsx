@@ -8,7 +8,7 @@ interface FooterProps {
 const Footer: React.FC<FooterProps> = ({ handleNavigation }) => {
   return (
     <View style={styles.footer} >
-      <TouchableOpacity onPress={() => handleNavigation("Home")}>
+      <TouchableOpacity onPress={() => handleNavigation("Funcionalidades")}>
         <Image
           source={require("../assets/icons-rod/home.png")}
           style={styles.footerIcon}

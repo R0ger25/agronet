@@ -5,7 +5,8 @@ export type RootStackParamList = {
   AlterarSenha: undefined;
   EditarPerfil: undefined;
   Home: undefined;
-  ComprarInsumo: undefined;
+  ComprarInsumos: undefined;
+  Favoritos: undefined;
   Notificacoes: undefined;
   Perfil: undefined;
   AlterarEndereco: { 
