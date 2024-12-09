@@ -46,7 +46,7 @@ const ComprarInsumos: React.FC<ComprarInsumosProps> = ({ navigation }) => {
     toggleFavorite(product.id); // Usa a função do contexto para alternar o estado de favorito
     Alert.alert(
       'Favoritos',
-      `${product.nome} foi ${product.favorito ? 'adicionado' : 'removido'} dos favoritos!`
+      `${product.nome} foi ${product.favorito ? 'removido' : 'adicionado'} dos favoritos!`
     );
   };
 
